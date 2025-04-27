@@ -3,6 +3,7 @@ import torch
 from transformers.models.bert.modeling_bert import BertSelfAttention
 import torch_pruning as tp
 
+
 tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
 model = BertModel.from_pretrained("bert-base-uncased")
 #print(model)
